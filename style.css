@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+:root {
+    /* Primary */
+
+    --blue: hsl(246, 80%, 60%);
+    --work-red: hsl(15, 100%, 70%);
+    --soft-blue: hsl(195, 74%, 62%);
+    --study-red: hsl(348, 100%, 68%);
+    --green-exercise: hsl(145, 58%, 55%);
+    --violet-social: hsl(264, 64%, 52%);
+    --orange-self: hsl(43, 84%, 65%);
+    --light-grey: hsl(250, 4%, 27%);
+
+    /* Neutral */
+
+    --very-dark-blue: hsl(226, 43%, 10%);
+    --dark-blue: hsl(235, 46%, 20%);
+    --desat-blue: hsl(235, 45%, 61%);
+    --pale-blue: hsl(236, 100%, 87%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg_blue{background-color: var(--blue);}
+
+body{
+    color: var(--pale-blue);
+    background-color: var(--very-dark-blue);
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+}
+
+.span1 {
+    font-size: 0.8em;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.p1 {
+    color: white;
+    font-weight: 300;
+    font-size: 2em;
+    opacity: 0.9;
+    height: 3.5em;
+}
+
+.d_w_m {
+    display: flex;
+    position: relative;
+    font-size: 0.9em;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--dark-blue);
+    height: 10.2em;
+    width: 100%;
+    padding: 40px 30px 25px;
+    margin-top: -20px;
+    z-index: 1;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#daily:hover, #weekly:hover, #monthly:hover{
+    color: white;
+}
+
+.theme-card{
+    width: 12.5em;
+}
+.up-box {
+    height: 50px;
+    background-color: var(--work-red);
+    position: relative;
+    z-index: -1;
+    top: 10px;
+    overflow: hidden;
+}
+.img-card {
+    position: absolute;
+    right: 15px;
+    top: -2.5px;
+    margin-top: -10px;
+}
+.icon-menu {
+    position: relative;
+    left: 150px;
+    top: 15px;
+    z-index: 9999;
+}
+.data-card {
+    color: white;
+    background-color: var(--dark-blue);
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: -35px;
+}
+.card-title {
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.card-info {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px 0 5px;
+}
+.card-info p {
+    font-size: 2.5em;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.span-previous {
+    font-size: 0.7em;
+    color: var(--pale-blue);
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

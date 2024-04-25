@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="row gap-1 mt-5">
+
+    <div class="col-2"></div>
+
+    <div class="col-2">
+
+      <div class="bg_blue position-relative z-3 rounded-4 pb-2">
+        <div class="m-3 py-3">
+          <img src="images/image-jeremy.png" alt="photo" height="80" width="80"/>
+        </div>
+
+        <span class="span1 ms-3">Report for</span>
+        <p class="p1 ms-3">Jeremy Robson</p>
+      </div>
+
+      <div class="d_w_m">
+        <a id="daily"  type="button">Daily</a>
+        <a id="weekly" class="active text-decoration-none" type="button">Weekly</a>
+        <a id="monthly"  type="button">Monthly</a>
+      </div>
+
+    </div>
+
+
+    <div class="col-7 row gap-1">
+
+      <article class="theme-card col-2">
+        <div class="up-box rounded-3">
+          <img class="img-card" src="images/icon-work.svg" alt="...">
+        </div>
+
+        <img class="icon-menu card-work" src="images/icon-ellipsis.svg" alt="">
+
+        <div class="data-card">
+          <p class="card-title">Work</p>
+          <div class="card-info">
+            <p class="para-current">
+              32hrs
+              <!-- weekly -->
+            </p>
+            <span class="span-previous">Last Week -
+              36hrs
+              <!-- weekly -->
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="theme-card ">
+        <div class="up-box rounded-3" style="background-color: var(--soft-blue)">
+          <img class="img-card" src="images/icon-play.svg" alt="...">
+        </div>
+
+        <img class="icon-menu card-work" src="images/icon-ellipsis.svg" alt="">
+
+        <div class="data-card">
+          <p class="card-title">Play</p>
+          <div class="card-info">
+            <p class="para-current">
+              10hrs
+              <!-- weekly -->
+            </p>
+            <span class="span-previous">Last Week -
+              8hrs
+              <!-- weekly -->
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="theme-card col-2">
+        <div class="up-box rounded-3" style="background-color: var(--study-red)">
+          <img class="img-card" src="images/icon-study.svg" alt="...">
+        </div>
+
+        <img class="icon-menu card-work" src="images/icon-ellipsis.svg" alt="">
+
+        <div class="data-card">
+          <p class="card-title">Study</p>
+          <div class="card-info">
+            <p class="para-current">
+              4hrs
+              <!-- weekly -->
+            </p>
+            <span class="span-previous">Last Week -
+              7hrs
+              <!-- weekly -->
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="theme-card ">
+        <div class="up-box rounded-3" style="background-color: var(--green-exercise)">
+          <img class="img-card" src="images/icon-exercise.svg" alt="...">
+        </div>
+
+        <img class="icon-menu card-work" src="images/icon-ellipsis.svg" alt="">
+
+        <div class="data-card">
+          <p class="card-title">Work</p>
+          <div class="card-info">
+            <p class="para-current">
+              4hrs
+              <!-- weekly -->
+            </p>
+            <span class="span-previous">Last Week -
+              5hrs
+              <!-- weekly -->
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="theme-card col-2">
+        <div class="up-box rounded-3" style="background-color: var(--violet-social)">
+          <img class="img-card" src="images/icon-social.svg" alt="...">
+        </div>
+
+        <img class="icon-menu card-work" src="images/icon-ellipsis.svg" alt="">
+
+        <div class="data-card">
+          <p class="card-title">Social</p>
+          <div class="card-info">
+            <p class="para-current">
+              5hrs
+              <!-- weekly -->
+            </p>
+            <span class="span-previous">Last Week -
+              10hrs
+              <!-- weekly -->
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="theme-card ">
+        <div class="up-box rounded-3" style="background-color: var(--orange-self)">
+          <img class="img-card" src="images/icon-self-care.svg" alt="...">
+        </div>
+
+        <img class="icon-menu card-work" src="images/icon-ellipsis.svg" alt="">
+
+        <div class="data-card">
+          <p class="card-title">Work</p>
+          <div class="card-info">
+            <p class="para-current">
+              2hrs
+              <!-- weekly -->
+            </p>
+            <span class="span-previous">Last Week -
+              2hrs
+              <!-- weekly -->
+            </span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="col-2"></div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  Report for-->
+<!--  Jeremy Robson-->
+
+<!--  Daily-->
+<!--  Weekly-->
+<!--  Monthly-->
+
+<!--  Work-->
+<!--  5hrs &lt;!&ndash; daily &ndash;&gt;-->
+<!--  Previous - 7hrs &lt;!&ndash; daily &ndash;&gt;-->
+<!--  32hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  Previous - 36hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  103hrs &lt;!&ndash; monthly &ndash;&gt;-->
+<!--  Previous - 128hrs &lt;!&ndash; monthly &ndash;&gt;-->
+
+<!--  Play-->
+<!--  1hr &lt;!&ndash; daily &ndash;&gt;-->
+<!--  Previous - 2hrs &lt;!&ndash; daily &ndash;&gt;-->
+<!--  10hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  Previous - 8hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  23hrs &lt;!&ndash; monthly &ndash;&gt;-->
+<!--  Previous - 29hrs &lt;!&ndash; monthly &ndash;&gt;-->
+
+<!--  Study-->
+<!--  0hrs &lt;!&ndash; daily &ndash;&gt;-->
+<!--  Previous - 1hr &lt;!&ndash; daily &ndash;&gt;-->
+<!--  4hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  Previous - 7hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  13hrs &lt;!&ndash; monthly &ndash;&gt;-->
+<!--  Previous - 19hrs &lt;!&ndash; monthly &ndash;&gt;-->
+
+<!--  Exercise-->
+<!--  1hr &lt;!&ndash; daily &ndash;&gt;-->
+<!--  Previous - 1hr &lt;!&ndash; daily &ndash;&gt;-->
+<!--  4hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  Previous - 5hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  11hrs &lt;!&ndash; monthly &ndash;&gt;-->
+<!--  Previous - 18hrs &lt;!&ndash; monthly &ndash;&gt;-->
+
+<!--  Social-->
+<!--  1hr &lt;!&ndash; daily &ndash;&gt;-->
+<!--  Previous - 3hrs &lt;!&ndash; daily &ndash;&gt;-->
+<!--  5hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  Previous - 10hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  21hrs &lt;!&ndash; monthly &ndash;&gt;-->
+<!--  Previous - 23hrs &lt;!&ndash; monthly &ndash;&gt;-->
+
+<!--  Self Care-->
+<!--  0hrs &lt;!&ndash; daily &ndash;&gt;-->
+<!--  Previous - 1hr &lt;!&ndash; daily &ndash;&gt;-->
+<!--  2hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  Previous - 2hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  7hrs &lt;!&ndash; monthly &ndash;&gt;-->
+<!--  Previous - 11hrs &lt;!&ndash; monthly &ndash;&gt;-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
