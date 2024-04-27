@@ -1,4 +1,5 @@
 'use strict';
+
 const btn_weekly = document.getElementById('weekly');
 const btn_daily = document.getElementById('daily');
 const btn_monthly = document.getElementById('monthly');
