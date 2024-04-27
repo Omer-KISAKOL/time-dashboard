@@ -33,6 +33,7 @@ body{
     background-color: var(--very-dark-blue);
     font-family: "Rubik", sans-serif;
     font-size: 18px;
+    overflow: hidden;
 }
 
 .span1 {
