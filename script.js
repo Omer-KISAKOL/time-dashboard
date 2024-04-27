@@ -27,6 +27,10 @@ let data = fetch('data.json')
 
         btn_weekly.addEventListener("click", function () {
 
+            document.getElementById("weekly").classList.add("text-white");
+            document.getElementById("daily").classList.remove("text-white");
+            document.getElementById("monthly").classList.remove("text-white");
+
             if (element.title === 'Work' && work1.innerHTML.length <= 7 ){
                 work1.innerHTML = ``;
                 work1.innerHTML += `${element.timeframes.weekly.current}hrs`;
@@ -87,6 +91,12 @@ let data = fetch('data.json')
 
 
         btn_daily.addEventListener("click", function () {
+
+            document.getElementById("weekly").classList.remove("text-white");
+            document.getElementById("daily").classList.add("text-white");
+            document.getElementById("monthly").classList.remove("text-white");
+
+
             if (element.title === 'Work' && work1.innerHTML.length <= 7 ){
                 work1.innerHTML = ``;
                 work1.innerHTML += `${element.timeframes.daily.current}hrs`;
@@ -144,6 +154,12 @@ let data = fetch('data.json')
 
 
         btn_monthly.addEventListener("click", function () {
+
+            document.getElementById("monthly").classList.add("text-white");
+            document.getElementById("weekly").classList.remove("text-white");
+            document.getElementById("daily").classList.remove("text-white");
+
+
             if (element.title === 'Work' && work1.innerHTML.length <= 7 ){
                 work1.innerHTML = ``;
                 work1.innerHTML += `${element.timeframes.monthly.current}hrs`;
